@@ -23,8 +23,8 @@ spec:
       targetRevision: 8.5.10
       helm:
         valueFiles:
-          - $values/apps/example_rke2/_system/argocd/argocd.values.yaml
-    - repoURL: https://github.com/ondrejsika/argocd-apps-public.git
+          - $values/apps/lab0/_system/argocd/argocd.values.yaml
+    - repoURL: https://github.com/sika-training-examples/2025-11-12_dhl-argocd-apps-example.git
       ref: values
-    - repoURL: https://github.com/ondrejsika/argocd-apps-public.git
-      path: ./apps/example_lab0/_system/argocd/manifests
+    - repoURL: https://github.com/sika-training-examples/2025-11-12_dhl-argocd-apps-example.git
+      path: ./apps/lab0/_system/argocd/manifests
